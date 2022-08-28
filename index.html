@@ -18,27 +18,22 @@
 
   <body>
     <div class="container">
-			<div id=content">
+			<div id="content">
 				<div id="box">
     <h1>
-			<img src="images/cloudyy.png" alt="Sun behind clouds " class="dark-clouds" />
+			<img src="images/cloudyy.png" alt="Sun behind dark clouds " class="dark-clouds" />
+	</h1>
+	<h2>
 				
-			<div class="float-left">
+			<div class="float">
 					<p id="city"></p>
 				<span class="temperature" id="temperature"></span
 				><span class="units">
 					<a href="#" id="celsius-link"><sup>°C<sup></a> <sup> | </sup>
 					<a href="#" id="fahrenheit-link"><sup>°F </sup></a>
-					<hr>
-					<button
-                class="btn btn-success btn-lg-"
-                id="current-location-button"
-              >
-                Current Location
-              </button>
-				
-			</h1>
-			<h2>
+
+	</h2>
+	<h3>
 			<ul>
 				<li id="date"></li>
 				<li id="description">
@@ -51,36 +46,39 @@
 				<li>
 					Wind: <span id="wind"></span> km/h
 				</li>
-			</h2>
+	</h3>
+	<hr>
 
 
 		<form id="search-bar">
 			<div class="wrap">
-					<input
-					type="search"
-					placeholder="Please type a city"
-				  class="form-control"
-					autofocus="on" 
-					autocomplete="off"
-					id="city-input"
-					class="form-control shadow-sm">
-
-					<button
-                class="btn btn-warning btn-lg-float left"
-								id="search-button"
-								values="Search" 
+				<input 
+				type="search" 
+				id="city-input" 
+				placeholder="Please type a city..." 
+				autofocus="on" 
+				autocomplete="off"
+				class="form-control-lg shadow-sm">
+				<button id="search-button">
+					Search City
+				</button>
+				<button
+                class="btn btn-info btn"
+                id="current-location-button"
               >
-                Search
+                Current Location
               </button>
-			</form>
+		</form>
 	
 			<hr>
 			
-			<h3>
+			<h4>
 			Daily Forecast
-			</h3>
+			</h4>
+
+			<hr>
 			
-	  <h4>
+	  <h5>
 			
 			<div class="row card-body">
 				<div class="col-2">
@@ -147,7 +145,7 @@
 						</div>
 					</div>
 				</div>
-			</h4>
+			</h5>
 
 			
     <script src="src/index.js"></script>

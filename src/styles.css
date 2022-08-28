@@ -4,6 +4,13 @@ h1 {
   padding-left: 0px;
 }
 
+h2 {
+  padding-left: 220px;
+  position: absolute;
+  top: 7%;
+  left: 17%;
+}
+
 h3 {
   font-weight: 900;
   margin: 10px auto;
@@ -12,6 +19,14 @@ h3 {
   font-weight: 550;
   font-size: x-large;
   color: darkblue;
+  margin-left: center;
+}
+
+h4 {
+  color: black;
+}
+h5 {
+  margin-right: -50%;
 }
 
 p {
@@ -41,7 +56,7 @@ p {
   width: 1200px;
   height: 740px;
   margin: 30px auto;
-  max-width: 1200px;
+  max-width: 980px;
   padding: 15px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -76,19 +91,24 @@ hr {
 
 ul {
   list-style: none;
-  text-align: left;
+  text-align: right;
   font-size: 30px;
   line-height: 1.4;
   font-family: "Mochiy Pop One", sans-serif;
   color: black;
   font-weight: lighter;
-  margin-left: 60px;
-  bottom: -500px;
+  position: absolute;
+  margin-left: 500px;
+  cursor: pointer;
+  top: 8%;
+  left: 30%;
 }
 
 .card-title {
   font-weight: 750;
   font-size: 60px;
+  margin-left: 9px;
+  max-width: 450px;
 }
 
 .card-text {
@@ -96,6 +116,8 @@ ul {
   font-weight: 700;
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
+  margin-left: 9px;
+  max-width: 550px;
 }
 
 .temp {
@@ -103,8 +125,8 @@ ul {
   text-align: center;
   font-weight: 600;
   font-size: 25px;
-  margin: 0px;
   margin-left: -725px;
+  max-width: -725px;
 }
 
 .temperature {
@@ -116,26 +138,18 @@ ul {
   color: white;
   height: 250px;
   width: 850px;
+  max-width: 850px;
 }
 .card:hover {
   cursor: pointer;
   background-color: #ffe700;
 }
 
-.search-bar {
-  padding: 10px;
+.wrap {
+  width: 470px;
   border-radius: 10px;
   border-width: 100%;
-  width: 20%;
-  filter: drop-shadow(5px 5px 4px #4444dd);
-}
-
-.wrap {
-  width: 30%;
-  position: absolute;
-  top: 40%;
-  width: 700px;
-  left: 40%;
+  margin-right: -50%;
 }
 
 .row {
@@ -146,6 +160,31 @@ ul {
 }
 
 #current-location-button {
-  margin-left: 90px;
-  margin-top: -60px;
+  margin-left: 470px;
+  margin-top: -80px;
+  border-radius: 4px;
+  font-size: 20px;
+  width: 250px;
+  height: 50px;
+}
+
+#search-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ffe700;
+  border: none;
+  font-size: 20px;
+  width: 180px;
+  height: 47px;
+  transition: all 0.5s;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+#search-bar {
+  display: inline-block;
+  font-size: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 10%;
+  font-family: "Mochiy Pop One", sans-serif;
 }
