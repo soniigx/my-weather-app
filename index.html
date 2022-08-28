@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>☀️ Weather App</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,300;0,600;1,200;1,300;1,400;1,900&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/styles.css"
+/>
+</head>
+
+  <body>
+    <div class="container">
+			<div id=content">
+				<div id="box">
+    <h1>
+			<img src="images/cloudyy.png" alt="Sun behind clouds " class="dark-clouds" />
+				
+			<div class="float-left">
+					<p id="city"></p>
+				<span class="temperature" id="temperature"></span
+				><span class="units">
+					<a href="#" id="celsius-link"><sup>°C<sup></a> <sup> | </sup>
+					<a href="#" id="fahrenheit-link"><sup>°F </sup></a>
+					<hr>
+					<button
+                class="btn btn-success btn-lg-"
+                id="current-location-button"
+              >
+                Current Location
+              </button>
+				
+			</h1>
+			<h2>
+			<ul>
+				<li id="date"></li>
+				<li id="description">
+					Cloudy
+				</li>
+				<li>
+					Humidity: <span
+					id="humidity"></span>%
+				</li>
+				<li>
+					Wind: <span id="wind"></span> km/h
+				</li>
+			</h2>
+
+
+		<form id="search-bar">
+			<div class="wrap">
+					<input
+					type="search"
+					placeholder="Please type a city"
+				  class="form-control"
+					autofocus="on" 
+					autocomplete="off"
+					id="city-input"
+					class="form-control shadow-sm">
+
+					<button
+                class="btn btn-warning btn-lg-float left"
+								id="search-button"
+								values="Search" 
+              >
+                Search
+              </button>
+			</form>
+	
+			<hr>
+			
+			<h3>
+			Daily Forecast
+			</h3>
+			
+	  <h4>
+			
+			<div class="row card-body">
+				<div class="col-2">
+					<div class="card">
+						<div class="card-body">
+							<p class="card-text">
+							Mon
+							</br >
+							08/08
+							<img src="images/partlycloudy.png" alt="Sun behind clouds " class="partly-cloudy" />
+							<div class="temp">64<sup>°</sup>| 56<sup>°</sup></div>
+						</div>
+					</div>
+				</div>
+
+					<div class="col-2">
+					<div class="card">
+						<div class="card-body">
+							<p class="card-text">
+							Tue
+					  	</br >
+						  08/9
+							<img src="images/partlycloudy.png" alt="Sun behind clouds " class="partly-cloudy" />
+							<div class="temp">64<sup>°</sup>| 56<sup>°</sup></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-2">
+					<div class="card">
+						<div class="card-body">
+							<p class="card-text">
+							Wed
+						</br >
+						08/10
+							<img src="images/partlycloudy.png" alt="Sun behind clouds " class="partly-cloudy" />
+							<div class="temp">64<sup>°</sup>| 57<sup>°</sup></div>
+						</div>
+					</div>
+				</div>
+			
+				<div class="col-2">
+					<div class="card">
+						<div class="card-body">
+							<p class="card-text">
+							Thu
+						  </br >
+						  08/11
+							<img src="images/partlycloudy.png" alt="Sun behind clouds " class="partly-cloudy" />
+							<div class="temp">64<sup>°</sup>| 57<sup>°</sup></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-2">
+					<div class="card">
+						<div class="card-body">
+							<p class="card-text">
+							Fri
+						  </br >
+						  08/12
+							<img src="images/partlycloudy.png" alt="Sun behind clouds " class="partly-cloudy" />
+							<div class="temp">64<sup>°</sup>| 57<sup>°</sup></div>
+						</div>
+					</div>
+				</div>
+			</h4>
+
+			
+    <script src="src/index.js"></script>
+  </body>
+</html>

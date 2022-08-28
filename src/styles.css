@@ -1,0 +1,151 @@
+h1 {
+  color: black;
+  font-size: 42px;
+  padding-left: 0px;
+}
+
+h3 {
+  font-weight: 900;
+  margin: 10px auto;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550;
+  font-size: x-large;
+  color: darkblue;
+}
+
+p {
+  left: 30px;
+}
+
+#box {
+  background: linear-gradient(
+    2.1deg,
+    rgb(116, 253, 210) 5%,
+    rgb(0, 191, 247) 95.8%
+  );
+  background: linear-gradient(
+    68.6deg,
+    rgb(252, 165, 241) 1.8%,
+    rgb(181, 255, 255) 100.5%
+  );
+  background: linear-gradient(
+    138deg,
+    rgb(32, 201, 255) 36.7%,
+    rgb(0, 8, 187) 84.4%,
+    rgb(255, 255, 255) 119.7%
+  );
+  border: 5px solid #576bdf;
+  border-top: -10px;
+  border-radius: 15px;
+  width: 1200px;
+  height: 740px;
+  margin: 30px auto;
+  max-width: 1200px;
+  padding: 15px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+  border: none;
+}
+
+#city {
+  margin-left: 90px;
+  top: 100px;
+  align-items: center;
+  font-size: 60px;
+  color: darkblue;
+}
+
+.dark-clouds {
+  display: block;
+  margin: 0px auto;
+  margin-left: 15px;
+  width: 25%;
+  filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+.partly-cloudy {
+  display: block;
+  text-align: center;
+  width: 10%;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  font-size: 30px;
+  line-height: 1.4;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: black;
+  font-weight: lighter;
+  margin-left: 60px;
+  bottom: -500px;
+}
+
+.card-title {
+  font-weight: 750;
+  font-size: 60px;
+}
+
+.card-text {
+  color: #6d42c7;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.temp {
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 0px;
+  margin-left: -725px;
+}
+
+.temperature {
+  margin-left: 90px;
+  align-items: center;
+}
+
+.card-body {
+  color: white;
+  height: 250px;
+  width: 850px;
+}
+.card:hover {
+  cursor: pointer;
+  background-color: #ffe700;
+}
+
+.search-bar {
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 100%;
+  width: 20%;
+  filter: drop-shadow(5px 5px 4px #4444dd);
+}
+
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 40%;
+  width: 700px;
+  left: 40%;
+}
+
+.row {
+  margin: 0px auto;
+  padding-left: -200px;
+  filter: drop-shadow(10px 10px 4px #4444dd);
+  align-content: center;
+}
+
+#current-location-button {
+  margin-left: 90px;
+  margin-top: -60px;
+}
